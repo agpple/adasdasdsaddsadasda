@@ -183,7 +183,7 @@ class DiscordMusicBot extends Client {
       })
       .on("queueEnd", (player) => {
         let QueueEmbed = new MessageEmbed()
-          .setAuthor("The queue has ended", this.botconfig.IconURL)
+          .setAuthor("播放清單已結束", this.botconfig.IconURL)
           .setColor(this.botconfig.EmbedColor)
           .setTimestamp();
         client.channels.cache.get(player.textChannel).send(QueueEmbed);

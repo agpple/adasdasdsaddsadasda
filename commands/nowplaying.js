@@ -69,7 +69,7 @@ module.exports = {
         .setDescription(`[${song.title}](${song.uri})`)
         .addField("授權人", `${song.requester}`, true)
         .addField(
-          "Duration",
+          "期間",
           `${
             client.ProgressBar(
               player.position,
