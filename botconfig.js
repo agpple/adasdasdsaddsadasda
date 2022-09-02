@@ -30,10 +30,10 @@ module.exports = {
   // The default one should work fine, altho if you have issue with it, you can create your own or use another public lavalink.
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "connect.freelavalink.ga", //- The host name or IP of the lavalink server.
-    port: 2000, // The port that lavalink is listening to. This must be a number!
+    host: "lavalink.oops.wtf", //- The host name or IP of the lavalink server.
+    port: 443, // The port that lavalink is listening to. This must be a number!
     pass: "www.freelavalink.ga", //- The password of the lavalink server.
-    secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
+    secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
   },
 
   //Please go to https://developer.spotify.com/dashboard/
